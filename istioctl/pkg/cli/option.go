@@ -24,13 +24,13 @@ import (
 )
 
 const (
-	FlagKubeConfig        = "kubeconfig"
-	FlagContext           = "context"
-	FlagImpersonate       = "as"
-	FlagImpersonateUID    = "as-uid"
-	FlagImpersonateGroups = "as-group"
-	FlagNamespace         = "namespace"
-	FlagIstioNamespace    = "istioNamespace"
+	FlagKubeConfig       = "kubeconfig"
+	FlagContext          = "context"
+	FlagImpersonate      = "as"
+	FlagImpersonateUID   = "as-uid"
+	FlagImpersonateGroup = "as-group"
+	FlagNamespace        = "namespace"
+	FlagIstioNamespace   = "istioNamespace"
 )
 
 type RootFlags struct {
